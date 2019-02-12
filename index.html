@@ -13,62 +13,38 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="index.js"></script>
     <style>
-
+     
     </style>
     <title>Beer Displayer</title>
 </head>
 
 <body>
     <br /><br />
-    <div class="container" style="width:900px;">
+    <div class="container" style="width:1000px;">
+      <div id="searchForm">
         <h2 align="center">Beer Displayer</h2>
         <br /><br />
         <div align="center" class="row">
             <input type="text" name="search" id="search" placeholder="Search a beer" class="form-control col-10" />
             <button id="searchButton" class="btn btn-primary col-2">Search</button>
         </div>
-
         <div class="row">
-            <div class="col-3" id="beer1"></div>
-            <div class="col-3" id="beer2"></div>
-            <div class="col-3" id="beer3"></div>
-            <div class="col-3" id="beer4"></div>
-        </div>
-        <div class="row">
-            <div class="col-3" id="beer5"></div>
-            <div class="col-3" id="beer6"></div>
-            <div class="col-3" id="beer7"></div>
-            <div class="col-3" id="beer8"></div>
-        </div>
-        <div class="row">
-            <div class="col-3" id="beer9"></div>
-            <div class="col-3" id="beer10"></div>
-            <div class="col-3" id="beer11"></div>
-            <div class="col-3" id="beer12"></div>
-        </div>
-        <div class="row">
-            <div class="col-3" id="beer13"></div>
-            <div class="col-3" id="beer14"></div>
-            <div class="col-3" id="beer15"></div>
-            <div class="col-3" id="beer16"></div>
-        </div>
-        <div class="row">
-            <div class="col-3" id="beer17"></div>
-            <div class="col-3" id="beer18"></div>
-            <div class="col-3" id="beer19"></div>
-            <div class="col-3" id="beer20"></div>
-        </div>
-        <div class="row">
-            <div class="col-3" id="beer21"></div>
-            <div class="col-3" id="beer22"></div>
-            <div class="col-3" id="beer23"></div>
-            <div class="col-3" id="beer24"></div>
-        </div>
-        <div class="row">
-            <div class="col-3" id="beer25"></div>
-        </div>
-
+            <ul class="list-group col-10" id="result"></ul>
+       </div><br />
     </div>
+    
+    <div id="displayArea">
+         <div class="card-deck" id="row1"></div>
+         <div class="card-deck" id="row2"></div>
+         <div class="card-deck" id="row3"></div>
+         <div class="card-deck" id="row4"></div>
+         <div class="card-deck" id="row5"></div>
+         <div class="card-deck" id="row6"></div>
+         <div class="card-deck " id="row7"></div>
+    </div>  
+         
+       
+ </div>
 
 
 
